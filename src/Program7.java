@@ -25,6 +25,9 @@ public class Program7 {
            case 800:
                    System.out.println("Киров. Стоимость разговора:" +  10 *  5.00);
                    break;
+           default:
+               System.out.printf("Неизвестный код города %d. Попробуйте снова.", kod);
+               break;
 
         }
         input.close();
